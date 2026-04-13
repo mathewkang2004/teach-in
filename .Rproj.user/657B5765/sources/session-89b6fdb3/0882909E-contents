@@ -1,0 +1,154 @@
+---
+title: "AI as a Health Resource in Marginalized Communities"
+subtitle: "Are chatbots improving or worsening the healthcare access-equity gap?"
+author: "Mathew Kang · April 11, 2026"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-title: "Contents"
+    toc-depth: 2
+    smooth-scroll: true
+    embed-resources: true
+    css: handout-styles.css
+---
+
+::: intro-banner
+This handout accompanies a teach-in presentation on how AI chatbots are being used for health guidance in marginalized communities — and what that means for healthcare equity.
+:::
+
+------------------------------------------------------------------------
+
+## Who Is Using AI for Health Advice?
+
+**1 in 3 U.S. adults** have used AI for health information or advice in the past year (KFF, 2026).
+
+**Why people turn to AI instead of a provider:**
+
+| Group | Can't afford a provider | No regular provider / can't get appointment |
+|------------------------|------------------------|------------------------|
+| All respondents | 19% | 18% |
+| Ages 18–29 | 29% | 38% |
+| Income \< \$40k | 32% | 25% |
+
+**Who uses AI most for mental health advice** (% who used AI for mental health):
+
+| Group           | \%  |
+|-----------------|-----|
+| Ages 18–29      | 28% |
+| Ages 50+        | 8%  |
+| Uninsured       | 30% |
+| Insured         | 14% |
+| Black adults    | 21% |
+| Hispanic adults | 19% |
+| White adults    | 12% |
+
+> **Key takeaway:** Young, low-income, uninsured, Black, and Hispanic adults are disproportionately turning to AI — often because they have no other accessible option.
+
+*Source: KFF (2026)*
+
+------------------------------------------------------------------------
+
+## What AI Can and Can't Do
+
+**How people describe using AI for health:**
+
+-   As a **starting point** before searching trusted sources like NIH
+-   As a **conversational tool** — asking follow-up questions the way you would with a doctor
+-   With **skepticism**, but appreciation for how it summarizes information
+
+**What research shows AI struggles with:**
+
+-   Performance drops sharply as clinical scenario complexity increases
+    -   Claude Sonnet 4: 89.2% accuracy (easy) → 48.7% (very hard)
+    -   Gemini 2.5 Pro: 86.7% → 43.6%
+    -   ChatGPT O3: 84.1% → 44.2%
+-   **Prompt strategy matters a lot:** Meta-cognitive prompting outperforms zero-shot on every clinical dimension (diagnostic accuracy, ethical reasoning, safety assessment, communication, clinical utility)
+-   **Limited consideration** of insurance coverage and treatment appropriateness for elderly and low-income patients
+
+> **Key takeaway:** AI performs reasonably at basic tasks but is unreliable for complex clinical and ethical reasoning — exactly the scenarios marginalized communities are most likely to face.
+
+*Source: Esmaeilzadeh (2025)*
+
+------------------------------------------------------------------------
+
+## AI Perpetuates Stereotypes in Disease
+
+Research using GPT-4 found that its estimates of disease prevalence were often systematically biased by race, gender, and ethnicity — diverging from true U.S. prevalence data.
+
+**Examples of GPT-4 bias:**
+
+-   **Sarcoidosis:** GPT-4 estimated 42% prevalence in Black patients vs. true prevalence of 18% — overestimating by \~24 percentage points
+-   **Systemic lupus erythematosus:** Overestimated in female patients (92% vs. true 88%)
+-   **Multiple sclerosis:** Overestimated in White patients (82% vs. true 80%)
+
+**Patient dishonesty ratings (Likert scale, 1–5):** GPT-4 assigned higher dishonesty scores to Black male patients in scenarios involving pain and opioid use — consistent with real-world racial bias in clinical settings.
+
+> **Key takeaway:** AI doesn't just reflect healthcare disparities — it may actively reinforce them by encoding racial and gender stereotypes into its outputs.
+
+*Source: Zack et al. (2024)*
+
+------------------------------------------------------------------------
+
+## Ethical Considerations
+
+| Principle | Pros | Cons |
+|------------------------|------------------------|------------------------|
+| **Autonomy** | Personalizes responses to individual needs | Paywalls limit source access; stereotype reinforcement hinders social mobility |
+| **Beneficence** | Educates users on health; helps navigate insurance and the healthcare system | Unclear when complexity of information becomes harmful |
+| **Nonmaleficence** | — | Inaccurate info worsens distress; cannot provide direct care; lacks moral reasoning for clinical ethics |
+| **Justice** | Free plans provide 24/7 guidance for those in "medical deserts" | Historical training data may miss how symptoms present in marginalized groups |
+
+------------------------------------------------------------------------
+
+## The Digital Divide
+
+A critical barrier to health information literacy in marginalized communities is **unequal access to technology**.
+
+:::::: stat-row
+::: stat-box
+**200,000** students in Idaho without a computer
+:::
+
+::: stat-box
+**30,000** students in Idaho without Wi-Fi
+:::
+
+::: stat-box
+**\~11%** of Idaho's 1.8M residents affected
+:::
+::::::
+
+Idaho's **"Close the Divide"** campaign sought donated laptops and funding to address this gap — a reminder that digital access is a prerequisite for benefiting from AI health tools at all.
+
+*Source: Sanders & Scanlon (2021)*
+
+------------------------------------------------------------------------
+
+## What Needs to Change
+
+**We need to:**
+
+**1. Enhance information literacy within marginalized communities** → The digital divide is well-documented and must be addressed before AI health tools can be equitably used
+
+**2. Encourage scholars to research the effects of AI use for health guidance on health outcomes** → Currently, no studies directly evaluate whether using AI for health advice improves or worsens patient outcomes
+
+**3. Demand AI developers and enterprises to open the "black box"** → How developers train their models with data, and how that data is obtained, are not publicly available
+
+------------------------------------------------------------------------
+
+## References
+
+404NotAFish. (2025, September). *Why is people relying on AI for healthcare advice?* \[Reddit post\]. r/ArtificialInteligence. https://www.reddit.com/r/ArtificialInteligence/comments/1np6ujy/
+
+Esmaeilzadeh, P. (2025). Ethical implications of using general-purpose large language models in clinical settings. *BMC Medical Informatics and Decision Making*, *25*, 342. https://doi.org/10.1186/s12911-025-03182-6
+
+Hardinges, J., Simperl, E., & Shadbolt, N. (2023). We must fix the lack of transparency around the data used to train foundation models. *Harvard Data Science Review*, *Special Issue 5*. https://hdsr.mitpress.mit.edu/pub/xau9dza3/release/2
+
+KFF. (2026, March 25). *One in three adults have used AI for health information and advice in the past year*. KFF. https://www.kff.org/public-opinion/kff-tracking-poll-on-health-information-and-trust-use-of-ai-for-health-information-and-advice/
+
+Sanders, C. K., & Scanlon, E. (2021). The digital divide is a human rights issue: Advancing social inclusion through social work advocacy. *Journal of Human Rights and Social Work*, *6*, 130–143. https://doi.org/10.1007/s41134-020-00147-9
+
+Wardle, C., Urbani, S., & Wang, E. (2025). Evolving health information–seeking behavior in the context of Google AI overviews, ChatGPT, and Alexa: Interview study using the think-aloud protocol. *Journal of Medical Internet Research*, *27*, e79961. https://doi.org/10.2196/79961
+
+Zack, T., Lehman, E., Suzgun, M., Rodriguez, J. A., Celi, L. A., Gichoya, J., Jurafsky, D., Szolovits, P., Bates, D. W., Abdulnour, R.-E. E., Butte, A. J., & Alsentzer, E. (2024). Assessing the potential of GPT-4 to perpetuate racial and gender biases in health care: A model evaluation study. *The Lancet Digital Health*, *6*, e12–e22. https://doi.org/10.1016/S2589-7500(23)00225-X

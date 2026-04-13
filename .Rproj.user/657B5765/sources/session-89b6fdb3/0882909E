@@ -1,14 +1,14 @@
 {
-    "id": "0CE2FE45",
-    "path": "~/Desktop/teach-in/handout.qmd",
-    "project_path": "handout.qmd",
+    "id": "0882909E",
+    "path": "~/Desktop/teach-in/index.qmd",
+    "project_path": "index.qmd",
     "type": "quarto_markdown",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1776048970798.0,
+    "created": 1776050171481.0,
     "source_on_save": true,
-    "relative_order": 3,
+    "relative_order": 4,
     "properties": {
         "rmdVisualMode": "false",
         "rmdVisualWrapConfigured": "true",
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "147,66",
-        "scrollLine": "141",
-        "rmdVisualModeLocation": "2:0"
+        "cursorPosition": "58,0",
+        "scrollLine": "44",
+        "rmdVisualModeLocation": "2:6"
     },
     "folds": "",
-    "lastKnownWriteTime": 1776049244,
+    "lastKnownWriteTime": 1776050203,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1776049244147,
+    "last_content_update": 1776050203225,
     "read_only": false,
     "read_only_alternatives": []
 }
