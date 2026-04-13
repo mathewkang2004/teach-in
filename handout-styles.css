@@ -1,0 +1,85 @@
+/* ── General ── */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #1a1a2e;
+  max-width: 780px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+h1, h2, h3 { color: #1a1a2e; }
+h2 { border-bottom: 2px solid #e5e7eb; padding-bottom: 0.3rem; margin-top: 2rem; }
+
+/* ── Intro banner ── */
+.intro-banner {
+  background: #f5f3ff;
+  border-left: 4px solid #4f46e5;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+/* ── Tables ── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: 1rem 0;
+}
+th {
+  background: #1a1a2e;
+  color: #fff;
+  padding: 0.5rem 0.8rem;
+  text-align: left;
+}
+td {
+  padding: 0.45rem 0.8rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+tr:nth-child(even) td { background: #f9fafb; }
+
+/* ── Blockquote callouts ── */
+blockquote {
+  background: #f0f4ff;
+  border-left: 4px solid #4f46e5;
+  margin: 1rem 0;
+  padding: 0.7rem 1rem;
+  border-radius: 0 8px 8px 0;
+  font-style: normal;
+  color: #1a1a2e;
+}
+blockquote p { margin: 0; font-weight: 600; }
+
+/* ── Idaho stat row ── */
+.stat-row {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.stat-box {
+  flex: 1;
+  background: #f0f4ff;
+  border: 1px solid #c7d2fe;
+  border-radius: 8px;
+  padding: 0.7rem 0.8rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #555;
+  line-height: 1.4;
+}
+.stat-box strong, .stat-box b {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #4f46e5;
+  margin-bottom: 0.2rem;
+}
+
+/* ── References ── */
+#references + p, #references ~ p {
+  font-size: 0.85rem;
+  color: #444;
+  line-height: 1.6;
+}
