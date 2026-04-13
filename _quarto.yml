@@ -1,8 +1,14 @@
 project:
   type: website
+  resources:
+    - ai-app.png
+    - hands.jpg
+    - handout-styles.css
 
 website:
   title: "AI as a Health Resource in Marginalized Communities"
-  
+
 render:
   - index.qmd
+  - teach-in.qmd
+  - handout.qmd

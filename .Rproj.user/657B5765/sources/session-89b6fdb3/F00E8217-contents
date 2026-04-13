@@ -2,6 +2,7 @@
 format:
   revealjs:
     theme: simple
+    css: styles.css
 ---
 
 ## {data-background-color="#ffffff" .nostretch .title-custom}
@@ -870,6 +871,11 @@ There are steps you can take **right now** as a student to combat this issue.
 ```
 
 ## Key Takeaways (Handout)
+
+```{=html}
+<div style="display:flex; flex-direction:column; align-items:center; justify-content:center; height:75%; gap:1.2rem; padding-top:1rem;">
+  <img src="handout-qr.png" style="width:340px; height:340px; border-radius:12px;">
+```
 
 ## References
 
