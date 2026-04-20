@@ -904,4 +904,6 @@ Sanders, C. K., & Scanlon, E. (2021). The digital divide is a human rights issue
 Wardle, C., Urbani, S., & Wang, E. (2025). Evolving health information–seeking behavior in the context of Google AI overviews, ChatGPT, and Alexa: Interview study using the think-aloud protocol. *Journal of Medical Internet Research*, *27*, e79961. https://doi.org/10.2196/79961
 
 Zack, T., Lehman, E., Suzgun, M., Rodriguez, J. A., Celi, L. A., Gichoya, J., Jurafsky, D., Szolovits, P., Bates, D. W., Abdulnour, R.-E. E., Butte, A. J., & Alsentzer, E. (2024). Assessing the potential of GPT-4 to perpetuate racial and gender biases in health care: A model evaluation study. *The Lancet Digital Health*, *6*, e12–e22. https://doi.org/10.1016/S2589-7500(23)00225-X
+
+Interactive Charts Generated With Claude Code
 :::
