@@ -1,7 +1,7 @@
 ---
 title: "Handout: AI as a Health Resource in Marginalized Communities"
 subtitle: "Are chatbots improving or worsening the healthcare access-equity gap?"
-author: "Mathew Kang · April 11, 2026"
+author: "Mathew Kang · April 20, 2026"
 format:
   html:
     theme: cosmo
@@ -50,19 +50,19 @@ format:
 **How people describe using AI for health:**
 
 -   As a **starting point** before searching trusted sources like NIH
--   As a **conversational tool** — asking follow-up questions the way you would with a doctor
+-   As a **conversational tool**: asking follow-up questions the way you would with a doctor
 -   With **skepticism**, but appreciation for how it summarizes information
 
 **What research shows AI struggles with:**
 
 -   Performance drops sharply as clinical scenario complexity increases
-    -   Claude Sonnet 4: 89.2% accuracy (easy) → 48.7% (very hard)
-    -   Gemini 2.5 Pro: 86.7% → 43.6%
-    -   ChatGPT O3: 84.1% → 44.2%
--   **Prompt strategy matters a lot:** Meta-cognitive prompting outperforms zero-shot on every clinical dimension (diagnostic accuracy, ethical reasoning, safety assessment, communication, clinical utility)
+    -   Claude Sonnet 4: 89.2% accuracy (easy) $\to$ 48.7% (very hard)
+    -   Gemini 2.5 Pro: 86.7% $\to$ 43.6%
+    -   ChatGPT O3: 84.1% $\to$ 44.2%
+-   **Prompt strategy matters a lot:** Meta-cognitive (complex) prompting outperforms zero-shot (easy) on every clinical dimension (diagnostic accuracy, ethical reasoning, safety assessment, communication, clinical utility)
 -   **Limited consideration** of insurance coverage and treatment appropriateness for elderly and low-income patients
 
-> **Key takeaway:** AI performs reasonably at basic tasks but is unreliable for complex clinical and ethical reasoning — exactly the scenarios marginalized communities are most likely to face.
+> **Key takeaway:** AI performs reasonably at basic tasks but is unreliable for complex clinical and ethical reasoning, which are the kinds of scenarios marginalized communities are most likely to face.
 
 *Source: Esmaeilzadeh (2025)*
 
@@ -70,17 +70,16 @@ format:
 
 ## AI Perpetuates Stereotypes in Disease
 
-Research using GPT-4 found that its estimates of disease prevalence were often systematically biased by race, gender, and ethnicity — diverging from true U.S. prevalence data.
+Research using GPT-4 found that its estimates of disease prevalence were often systematically biased by race, gender, and ethnicity -- diverging from true U.S. prevalence data.
 
 **Examples of GPT-4 bias:**
 
--   **Sarcoidosis:** GPT-4 estimated 42% prevalence in Black patients vs. true prevalence of 18% — overestimating by \~24 percentage points
--   **Systemic lupus erythematosus:** Overestimated in female patients (92% vs. true 88%)
+-   **Sarcoidosis:** GPT-4 estimated 42% prevalence in Black patients vs. true prevalence of 18% -- overestimating by \~24 percentage points
 -   **Multiple sclerosis:** Overestimated in White patients (82% vs. true 80%)
 
-**Patient dishonesty ratings (Likert scale, 1–5):** GPT-4 assigned higher dishonesty scores to Black male patients in scenarios involving pain and opioid use — consistent with real-world racial bias in clinical settings.
+**Patient dishonesty ratings (Likert scale, 1–5):** GPT-4 assigned higher dishonesty scores to Black male patients in scenarios involving pain and opioid use, which is consistent with real-world racial bias in clinical settings.
 
-> **Key takeaway:** AI doesn't just reflect healthcare disparities — it may actively reinforce them by encoding racial and gender stereotypes into its outputs.
+> **Key takeaway:** AI doesn't just reflect healthcare disparities, but it may actively reinforce them by encoding racial and gender stereotypes into its outputs.
 
 *Source: Zack et al. (2024)*
 
@@ -92,7 +91,7 @@ Research using GPT-4 found that its estimates of disease prevalence were often s
 |------------------------|------------------------|------------------------|
 | **Autonomy** | Personalizes responses to individual needs | Paywalls limit source access; stereotype reinforcement hinders social mobility |
 | **Beneficence** | Educates users on health; helps navigate insurance and the healthcare system | Unclear when complexity of information becomes harmful |
-| **Nonmaleficence** | — | Inaccurate info worsens distress; cannot provide direct care; lacks moral reasoning for clinical ethics |
+| **Nonmaleficence** | Explicitly reminds users that it is not a medical professional, which represents a proactive effort to minimize harm | Inaccurate info worsens distress; cannot provide direct care; lacks moral reasoning for clinical ethics |
 | **Justice** | Free plans provide 24/7 guidance for those in "medical deserts" | Historical training data may miss how symptoms present in marginalized groups |
 
 ------------------------------------------------------------------------
@@ -115,7 +114,7 @@ A critical barrier to health information literacy in marginalized communities is
 :::
 ::::::
 
-Idaho's **"Close the Divide"** campaign sought donated laptops and funding to address this gap — a reminder that digital access is a prerequisite for benefiting from AI health tools at all.
+Idaho's **"Close the Divide"** campaign sought donated laptops and funding to address this gap, a reminder that digital access is a prerequisite for benefiting from AI health tools at all.
 
 *Source: Sanders & Scanlon (2021)*
 
@@ -125,11 +124,11 @@ Idaho's **"Close the Divide"** campaign sought donated laptops and funding to ad
 
 **We need to:**
 
-**1. Enhance information literacy within marginalized communities** → The digital divide is well-documented and must be addressed before AI health tools can be equitably used
+**1. Enhance information literacy within marginalized communities** $\to$ The digital divide is well-documented and must be addressed before AI health tools can be equitably used
 
-**2. Encourage scholars to research the effects of AI use for health guidance on health outcomes** → Currently, no studies directly evaluate whether using AI for health advice improves or worsens patient outcomes
+**2. Encourage scholars to research the effects of AI use for health guidance on health outcomes** $\to$ Currently, no studies directly evaluate whether using AI for health advice improves or worsens patient outcomes
 
-**3. Demand AI developers and enterprises to open the "black box"** → How developers train their models with data, and how that data is obtained, are not publicly available
+**3. Demand AI developers and enterprises to open the "black box"** $\to$ How developers train their models with data, and how that data is obtained, are not publicly available
 
 ------------------------------------------------------------------------
 
