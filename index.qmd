@@ -1,5 +1,5 @@
 ---
-title: "AI as a Health Resource in Marginalized Communities"
+title: "Handout: AI as a Health Resource in Marginalized Communities"
 subtitle: "Are chatbots improving or worsening the healthcare access-equity gap?"
 author: "Mathew Kang · April 11, 2026"
 format:
@@ -13,10 +13,6 @@ format:
     css: handout-styles.css
 ---
 
-::: intro-banner
-This handout accompanies a teach-in presentation on how AI chatbots are being used for health guidance in marginalized communities — and what that means for healthcare equity.
-:::
-
 ------------------------------------------------------------------------
 
 ## Who Is Using AI for Health Advice?
@@ -25,9 +21,9 @@ This handout accompanies a teach-in presentation on how AI chatbots are being us
 
 **Why people turn to AI instead of a provider:**
 
-| Group | Can't afford a provider | No regular provider / can't get appointment |
+| Group | Can't afford a provider | No regular provider/can't get appointment |
 |------------------------|------------------------|------------------------|
-| All respondents | 19% | 18% |
+| All Respondents | 19% | 18% |
 | Ages 18–29 | 29% | 38% |
 | Income \< \$40k | 32% | 25% |
 
@@ -39,11 +35,11 @@ This handout accompanies a teach-in presentation on how AI chatbots are being us
 | Ages 50+        | 8%  |
 | Uninsured       | 30% |
 | Insured         | 14% |
-| Black adults    | 21% |
-| Hispanic adults | 19% |
-| White adults    | 12% |
+| Black Adults    | 21% |
+| Hispanic Adults | 19% |
+| White Adults    | 12% |
 
-> **Key takeaway:** Young, low-income, uninsured, Black, and Hispanic adults are disproportionately turning to AI — often because they have no other accessible option.
+> **Key takeaway:** Young, low-income, uninsured, Black, and Hispanic adults are disproportionately turning to AI, often because they have no other accessible option.
 
 *Source: KFF (2026)*
 
